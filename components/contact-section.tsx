@@ -1,0 +1,66 @@
+import type { FC } from "react"
+import { Button } from "@/components/ui/button"
+import { Input } from "@/components/ui/input"
+import { Textarea } from "@/components/ui/textarea"
+import { Github, Linkedin, Mail } from "lucide-react"
+
+const ContactSection: FC = () => {
+  return (
+    <section id="contact" className="py-8">
+      <h2 className="text-2xl font-bold text-gray-900 mb-8">Contact</h2>
+
+      <div className="grid md:grid-cols-2 gap-8">
+        <div>
+          <h3 className="text-xl font-semibold mb-4">Get in touch</h3>
+          <div className="space-y-4">
+            <a
+              href="mailto:keshav@example.com"
+              className="flex items-center gap-2 text-gray-700 hover:text-secondary transition-colors"
+            >
+              <Mail className="h-5 w-5" />
+              keshav@example.com
+            </a>
+            <a
+              href="https://linkedin.com/in/keshav"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-gray-700 hover:text-secondary transition-colors"
+            >
+              <Linkedin className="h-5 w-5" />
+              linkedin.com/in/keshav
+            </a>
+            <a
+              href="https://github.com/keshav"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-gray-700 hover:text-secondary transition-colors"
+            >
+              <Github className="h-5 w-5" />
+              github.com/keshav
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h3 className="text-xl font-semibold mb-4">Send a message</h3>
+          <form className="space-y-4">
+            <div>
+              <Input placeholder="Your Name" />
+            </div>
+            <div>
+              <Input type="email" placeholder="Your Email" />
+            </div>
+            <div>
+              <Textarea placeholder="Your Message" rows={4} />
+            </div>
+            <Button type="submit" className="bg-secondary hover:bg-secondary/80 text-white">
+              Send Message
+            </Button>
+          </form>
+        </div>
+      </div>
+    </section>
+  )
+}
+
+export default ContactSection
