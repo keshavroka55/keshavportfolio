@@ -50,7 +50,7 @@ const Header: FC<HeaderProps> = ({ username, name, role, location, profileImage,
           <div className="flex flex-col md:flex-row items-center md:items-start justify-between w-full mb-4">
             <div className="flex items-center gap-2 mb-2 md:mb-0">
               <h2 className="text-xl font-medium">{username}</h2>
-              <a href={`https://instagram.com/${username}`} target="_blank" rel="noopener noreferrer">
+              <a href={`https://www.instagram.com/keshavroka55/${username}`} target="_blank" rel="noopener noreferrer">
                 <Button
                   variant="outline"
                   size="sm"
