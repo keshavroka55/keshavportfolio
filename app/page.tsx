@@ -40,12 +40,12 @@ export default function Portfolio() {
       caption: "Best Demand Visa website redesign",
       deploymentUrl: "https://vercel.com/keshavs-projects-1e792232/diliraj/GwJpo4hkPzZ1uoppzSMPfnMQQQRM",
     },
-    // {
-    //   id: "2",
-    //   image: "/placeholder.svg?height=400&width=400",
-    //   caption: "Mobile banking app",
-    //   deploymentUrl: "https://vercel.com/rojansedhai/mobile-banking",
-    // },
+    {
+      id: "2",
+      image: "/bestdemand.jpg?height=400&width=400",
+      caption: "Best Demand Visa website redesign",
+      deploymentUrl: "https://diliraj-git-master-keshavs-projects-1e792232.vercel.app/",
+    },
     // {
     //   id: "3",
     //   image: "/placeholder.svg?height=400&width=400",
