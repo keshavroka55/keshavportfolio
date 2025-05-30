@@ -36,9 +36,9 @@ export default function Portfolio() {
   const [projects] = useState<Project[]>([
     {
       id: "1",
-      image: "/placeholder.svg?height=400&width=400",
-      caption: "E-commerce website redesign",
-      deploymentUrl: "https://vercel.com/rojansedhai/ecommerce-redesign",
+      image: "/bestdemand.jpg?height=400&width=400",
+      caption: "Best Demand Visa website redesign",
+      deploymentUrl: "https://vercel.com/keshavs-projects-1e792232/diliraj/GwJpo4hkPzZ1uoppzSMPfnMQQQRM",
     },
     // {
     //   id: "2",
