@@ -14,7 +14,7 @@ export default function Portfolio() {
     name: "Keshav Roka",
     role: "Software Devloper/AI Professinal",
     location: "Kathmandu, Nepal",
-    profileImage: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-5FDNW0wPBSHn1TGi4z1uGPyROLhTT2.png",
+    profileImage: "/KR.png?height=400&width=400",
     stats: {
       programs: {
         value: "20+",
