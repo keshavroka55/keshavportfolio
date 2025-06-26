@@ -27,7 +27,7 @@ const ContactSection: FC = () => {
               className="flex items-center gap-2 text-gray-700 hover:text-secondary transition-colors"
             >
               <Linkedin className="h-5 w-5" />
-              Keshav Roka
+              linkedin.com/keshav/
             </a>
             <a
               href="https://github.com/keshavroka55"
