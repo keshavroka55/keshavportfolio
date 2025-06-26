@@ -6,6 +6,7 @@ import type { Project } from "@/lib/types"
 import { useState } from "react"
 import { Card, CardContent, CardFooter } from "@/components/ui/card"
 import { X, ExternalLink } from "lucide-react"
+import React from "react"
 
 interface ProjectGalleryProps {
   projects: Project[]

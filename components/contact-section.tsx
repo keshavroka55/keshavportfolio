@@ -21,13 +21,13 @@ const ContactSection: FC = () => {
               keshavrokaya1244@example.com
             </a>
             <a
-              href="www.linkedin.com/in/keshav-roka"
+              href="https://www.linkedin.com/in/keshav-roka/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-gray-700 hover:text-secondary transition-colors"
             >
               <Linkedin className="h-5 w-5" />
-              linkedin.com/in/keshav
+              Keshav Roka
             </a>
             <a
               href="https://github.com/keshavroka55"

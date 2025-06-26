@@ -12,7 +12,7 @@ export default function Portfolio() {
   const profileInfo = {
     username: "@keshavroka",
     name: "Keshav Roka",
-    role: "Software Devloper/AI Professinal",
+    role: "Software Devloper/Backend Developer",
     location: "Kathmandu, Nepal",
     profileImage: "/KR.png?height=400&width=400",
     stats: {
@@ -40,12 +40,12 @@ export default function Portfolio() {
       caption: "Best Demand Visa website redesign",
       deploymentUrl: "https://diliraj-git-master-keshavs-projects-1e792232.vercel.app/",
     },
-    // {
-    //   id: "2",
-      // image: "/bestdemand.jpg?height=400&width=400",
-      // caption: "Best Demand Visa website redesign",
-      // deploymentUrl: "https://diliraj-git-master-keshavs-projects-1e792232.vercel.app/",
-    // },
+    {
+      id: "2",
+      image: "/tweet.png?height=400&width=400",
+      caption: "Tweet Django Project",
+      deploymentUrl: "https://django-blog-z443.onrender.com",
+    },
     // {
     //   id: "3",
     //   image: "/placeholder.svg?height=400&width=400",
@@ -85,7 +85,7 @@ export default function Portfolio() {
       id: "edu2",
       title: "Bachelor of Software Engineering",
       organization: "Universtiy of Bedfordshire",
-      duration: "2014 - 2018",
+      duration: "None",
       description: "Major in Computer Science with minor in Mathematics",
     },
   ])
@@ -112,7 +112,7 @@ export default function Portfolio() {
       id: "cert1",
       title: "AWS Certified Solutions Architect",
       organization: "Amazon Web Services",
-      duration: "2021",
+      duration: "2024",
       description: "Professional certification for AWS architecture",
     },
     // {
