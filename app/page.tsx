@@ -42,8 +42,8 @@ export default function Portfolio() {
     },
     {
       id: "2",
-      image: "/tweet.png?height=400&width=400",
-      caption: "Tweet Django Project",
+      image: "/vlog.jpg?height=400&width=400",
+      caption: "Blog Sharing Website",
       deploymentUrl: "https://django-blog-z443.onrender.com",
     },
     // {
