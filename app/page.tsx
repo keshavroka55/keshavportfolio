@@ -12,7 +12,7 @@ export default function Portfolio() {
   const profileInfo = {
     username: "@keshavroka",
     name: "Keshav Roka",
-    role: "Software Devloper/Backend Developer",
+    role: "Software Backend Developer",
     location: "Kathmandu, Nepal",
     profileImage: "/KR.png?height=400&width=400",
     stats: {
@@ -29,7 +29,8 @@ export default function Portfolio() {
         label: "certifications",
       },
     },
-    skills: ["Python", "Pandas", "GitHub", "Numpy"],
+    skills: [ "Skills", ":", "Python", "Django", "Pandas", "Numpy"],
+    tools: [ "Tools",":", "Vercel","Render","GitHub"],
   }
 
   // Sample projects data with Vercel deployment URLs
@@ -135,6 +136,7 @@ export default function Portfolio() {
           profileImage={profileInfo.profileImage}
           stats={profileInfo.stats}
           skills={profileInfo.skills}
+          tools={profileInfo.tools}
         />
 
         <main className="mt-12 space-y-20">

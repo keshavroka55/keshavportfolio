@@ -16,20 +16,26 @@ interface HeaderProps {
     certifications: { value: string; label: string }
   }
   skills: string[]
+  tools: string[]
 }
 
-const Header: FC<HeaderProps> = ({ username, name, role, location, profileImage, stats, skills }) => {
+const Header: FC<HeaderProps> = ({ username, name, role, location, profileImage, stats, skills,tools }) => {
   // Map skills to their appropriate colors
   const getSkillColor = (skill: string) => {
     const colors: Record<string, string> = {
-      AWS: "bg-secondary/20 text-secondary hover:bg-secondary/30",
-      Terraform: "bg-green-100 text-green-800 hover:bg-green-200",
-      GitHub: "bg-primary/20 text-primary-foreground hover:bg-primary/30",
-      Training: "bg-yellow-100 text-yellow-800 hover:bg-yellow-200",
+      Skills: "bg-secondary/20 text-secondary hover:bg-secondary/30",
     }
 
     return colors[skill] || "bg-gray-100 text-gray-800 hover:bg-gray-200"
   }
+  const getToolsColor = (tools: string) => {
+    const colors: Record<string, string> = {
+      Tools: "bg-secondary/20 text-secondary hover:bg-secondary/30",
+    }
+
+    return colors[tools] || "bg-gray-100 text-gray-800 hover:bg-gray-200"
+  }
+  
 
   return (
     <header className="py-8 border-b border-gray-100">
@@ -94,6 +100,15 @@ const Header: FC<HeaderProps> = ({ username, name, role, location, profileImage,
             {skills.map((skill) => (
               <Badge key={skill} variant="secondary" className={getSkillColor(skill)}>
                 {skill}
+              </Badge>
+            ))}
+          </div>
+
+          {/* for tools */}
+          <div className="flex flex-wrap gap-2 mt-4 justify-center md:justify-start">
+            {tools.map((tool) => (
+              <Badge key={tool} variant="secondary" className={getToolsColor(tool)}>
+                {tool}
               </Badge>
             ))}
           </div>
