@@ -34,14 +34,14 @@ export default function Portfolio() {
 
   // Sample projects data with Vercel deployment URLs
   const [projects] = useState<Project[]>([
+    // {
+    //   id: "1",
+    //   image: "/bestdemand.jpg?height=400&width=400",
+    //   caption: "Best Demand Visa website redesign",
+    //   deploymentUrl: "https://diliraj-git-master-keshavs-projects-1e792232.vercel.app/",
+    // },
     {
       id: "1",
-      image: "/bestdemand.jpg?height=400&width=400",
-      caption: "Best Demand Visa website redesign",
-      deploymentUrl: "https://diliraj-git-master-keshavs-projects-1e792232.vercel.app/",
-    },
-    {
-      id: "2",
       image: "/vlog.jpg?height=400&width=400",
       caption: "Blog Sharing Website",
       deploymentUrl: "https://django-blog-z443.onrender.com",
