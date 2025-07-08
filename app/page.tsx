@@ -35,24 +35,18 @@ export default function Portfolio() {
 
   // Sample projects data with Vercel deployment URLs
   const [projects] = useState<Project[]>([
-    // {
-    //   id: "1",
-    //   image: "/bestdemand.jpg?height=400&width=400",
-    //   caption: "Best Demand Visa website redesign",
-    //   deploymentUrl: "https://diliraj-git-master-keshavs-projects-1e792232.vercel.app/",
-    // },
     {
       id: "1",
-      image: "/vlog.jpg?height=400&width=400",
-      caption: "Blog Sharing Website",
+      image: "/BlogNest.png?height=400&width=400",
+      caption: "Blog & Tweet Sharing",
       deploymentUrl: "https://django-blog-z443.onrender.com",
     },
-    // {
-    //   id: "3",
-    //   image: "/placeholder.svg?height=400&width=400",
-    //   caption: "Healthcare dashboard",
-    //   deploymentUrl: "https://vercel.com/rojansedhai/healthcare-dashboard",
-    // },
+    {
+      id: "2",
+      image: "/skillls.png?height=400&width=400",
+      caption: "Skills Share ",
+      deploymentUrl: "https://skillshare-1-b58v.onrender.com",
+    },
     // {
     //   id: "4",
     //   image: "/placeholder.svg?height=400&width=400",
